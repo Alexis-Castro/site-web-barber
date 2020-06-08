@@ -1,0 +1,82 @@
+
+.section_days {
+    background-image: url(../img/header-img.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 3rem 0;
+
+}
+
+.days__text {
+
+    h2 {
+        letter-spacing: 2px;
+        color: #fff;
+        margin-bottom: 0;
+    }
+    
+    .after_before {
+        @include after_before;
+    }
+}
+
+.week_days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card__days {
+    &:last-child {
+        background-color: #3b3b3b;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #c89765;
+
+    .titulo {
+        color: #fff;
+        margin: 0;
+        font-size: 3.5rem;
+    }
+
+    .text-parrafo {
+        @include parrafo;
+        font-size: 1.25rem;
+        line-height: 1.4;
+        margin: 0;
+    }
+}
+
+.horarios_sedes {
+    margin: 4rem 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 10rem);
+    grid-column-gap: 20px;
+    justify-content: center;
+
+    
+    .button__sedes {
+        &:first-child {
+            background-color: #ca8a4a;
+            border-color: #ca8a4a;
+        }
+        
+        // @include button;
+        font-size: 1.2rem;
+        background-color: transparent;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: .9rem 0;
+    }
+}

@@ -1,0 +1,57 @@
+
+.section_services {
+    padding: 3rem 0;
+}
+
+
+.services_text {
+    text-align: center;
+    
+    .after_before {
+        @include after_before;
+    }
+    
+    h2 {
+        letter-spacing: .2rem;
+        margin-bottom: 0;
+    }
+    .text-parrafo {
+        @include parrafo;
+        color: var(--color-text);
+        line-height: 1.5;
+    }
+    
+}
+
+.card__services {
+    // text-align: left;
+    margin: 2rem 0;
+    background-color: #f6f6f6;
+    padding: 3.5rem 3rem;
+
+    img {
+        position: relative;
+        left: calc(50% - 3.5rem);
+        width: 70px;
+    }
+    h3 {
+        font-size: 1.4rem;
+        letter-spacing: 1.5px;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .precio {
+        color: #c89765;
+        font-size: 1.4rem;
+        margin-bottom: 0;
+    }
+    .text-parrafo {
+        @include parrafo;
+        color: var(--color-text);
+        line-height: 1.5;
+        font-size: 1.4rem;
+    }
+}

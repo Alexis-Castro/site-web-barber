@@ -1,0 +1,67 @@
+
+.section_our_barbers {
+    padding-top: 2rem;
+}
+
+.barber__text {
+    text-align: center;
+
+    h2 {
+        letter-spacing: .05rem;
+        margin-bottom: 0;
+    }
+
+    .after_before {
+        @include after_before;
+    }
+    .text-parrafo {
+        @include parrafo;
+        color: var(--color-text);
+    }
+}
+
+.card__barbers {
+    background-color: #fff;
+    margin: 2.5rem 0;
+    text-align: center;
+
+    .barber_image {
+        width: 100%;
+        height: 250px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+
+    .text-parrafo {
+        @include parrafo;
+        color: var(--color-text);
+    }
+}
+
+.barber_text {
+    padding: 2rem 3rem;
+
+    h3 {
+        letter-spacing: .08rem;
+        font-size: 1.4rem;
+    }
+
+    .barber_redes {
+        display: flex; 
+        justify-content: space-evenly;
+        margin: 3rem 0;
+        padding: 0 3.2rem;
+
+        .icono {
+            font-size: 1.5rem;
+            color: #000;
+        }
+        
+    }
+}
+

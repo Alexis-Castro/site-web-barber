@@ -1,0 +1,55 @@
+@import "../../utilities/mixins";
+@import "../../layout/header";
+@import "../../layout/services";
+@import "../../layout/look";
+@import "../../layout/barbers";
+@import "../../layout/horario";
+@import "../../layout/testimonials";
+@import "../../layout/footer";
+
+:root {
+    --font-titles: 'Roboto Slab', serif;
+    --font-parrafo: 'Opens Sans', sans-serif;
+    --color-body: #e2f5bf;
+    --color-text: #999999;
+    --color-background-button: #c89765;
+    --color-text-button: #fff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    // background-color: var(--color-body);
+    background-color: #fff;
+    font-family: var(--font-parrafo);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.titulo {
+    line-height: 1.2;
+    font-size: 2.2rem;
+    font-family: var(--font-titles);
+    text-transform: uppercase;
+    color: #163a5e;
+    font-weight: 400;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+

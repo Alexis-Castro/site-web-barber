@@ -1,0 +1,75 @@
+
+.section_testimonials {
+    padding: 3rem 0;
+}
+
+
+.testimonials__text {
+    padding: 0 .5rem;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    p {
+        @include parrafo;
+        color: var(--color-text);
+    }
+
+    .after_before {
+        @include after_before;
+    }
+}
+
+.card__testimonials {
+    padding: 4rem 2.5rem;
+    background-color: #f6f6f6;
+    
+    .testimonial_image {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+}
+
+.testimonial_text {
+    .titulo {
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+
+    .text-parrafo {
+        @include parrafo;
+        font-style: italic;
+        color: #000;
+
+        .icono {
+            font-size: 1.5rem;
+            margin: 0 .7rem;
+        }
+    }
+
+    .barber_redes {
+        display: flex; 
+        justify-content: start;
+        align-items: center;
+        margin-top: 3rem;
+
+        .icono {
+            font-size: 1.5rem;
+            margin-right: 4rem;
+            color: #000;
+        }
+        
+    }
+}
