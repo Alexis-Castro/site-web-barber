@@ -1,10 +1,11 @@
 
+.section_footer {
+    padding: 2.2rem 0;
+    background-color: #303030;
+}
+
 .content__footer {
     padding: 0 1rem;
-
-    div {
-        margin-bottom: 2.5rem;
-    }
 }
 
 .logo_footer {
@@ -13,6 +14,7 @@
     align-items: center;
 
     .titulo {
+        color: #cecece;
         font-size: 1.5rem;
     }
 
@@ -27,20 +29,28 @@
     .text-parrafo {
         @include parrafo;
         text-align: center;
-        color: var(--color-text);
+        color: #cecece;
     }
 
 }
 
 .nav_footer {
     list-style: none;
+    text-align: center;
+
     .menu__nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        .item_menu {
+            margin: 1.5rem 0;
+            width: 100%;
+        }
     }
 
     .titulo {
+        color: #cecece;
         text-decoration: none;
         font-size: 1.3rem;
     }
@@ -49,19 +59,26 @@
 .footer_redes {
     display: flex;
     justify-content: center;
+    margin: 1rem 0;
     
     .icono {
-        margin: 2rem;
-        color: #c89765;
-        font-size: 1.5rem;
+        margin: 1.5rem 2rem;
+        color: #cecece;
+        font-size: 1.8rem;
     }
 }
 
 .copyright {
+    margin: 2rem 0;
     h3 {
         text-align: center;
         font-size: 1.3rem;
         text-transform: capitalize;
         color: var(--color-text);
     }
+}
+
+
+.fa-angle-right {
+    margin: 0 .7rem;
 }
