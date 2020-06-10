@@ -1,0 +1,42 @@
+
+.section_header {
+    margin-top: 5.5rem;
+}
+
+.nav_header {
+    background-color: #303030;
+    position: fixed;
+    width: 100%;
+    z-index: 1111;
+    top: 0;
+}
+
+.menu__nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+
+    .hambur {
+        font-size: 3rem;
+        margin-right: 2rem;
+
+        .icono {
+            color: #eeeeee;
+        }
+    }
+
+    img {
+        width: 5.5rem;
+    }
+
+    .titulo {
+        color: #dedede;
+        margin: 0 .5rem;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
