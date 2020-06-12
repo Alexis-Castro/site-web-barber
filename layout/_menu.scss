@@ -1,42 +1,99 @@
 
 .section_header {
-    margin-top: 5.5rem;
+    padding-top: 7rem;
 }
 
 .nav_header {
-    background-color: #303030;
+    background-color: #fff;
     position: fixed;
-    width: 100%;
     z-index: 1111;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 .menu__nav {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 1rem;
-
-    .hambur {
-        font-size: 3rem;
-        margin-right: 2rem;
-
-        .icono {
-            color: #eeeeee;
-        }
-    }
+    padding: 1.2rem;
 
     img {
-        width: 5.5rem;
+        width: 5.2rem;
     }
 
     .titulo {
-        color: #dedede;
+        color: #163a5e;
         margin: 0 .5rem;
         font-size: 1.3rem;
     }
+
 }
 
+.hambur {
+    font-size: 3rem;
+    margin-right: 2rem;
+
+    .icono {
+        text-decoration: none;
+        color: #747474;
+
+        img {
+            padding-top: .8rem;
+            width: 30px;
+        }
+    }
+
+    .menu__hambur {
+        display: block;
+        margin-bottom: 8px;
+        height: .1rem;
+        background-color: #000;
+        width: 3rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+// *************** Dark Mode *****************
+
+.switch {
+    margin-left: auto;
+
+    background-color: #dedede;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        position: absolute;
+        background-color: #f1f1f1;
+        top: 0;
+        left: 0;
+        right: unset;
+        border-radius: 10rem;
+        transition: .3s ease all;
+        box-shadow: 0 0 2px 2px rgba(0,0,0, .2);
+    }
+
+    span {
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        display: block;
+        background: none;
+        color: #000;
+    }
+}
 
 
 

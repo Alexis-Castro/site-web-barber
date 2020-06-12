@@ -1,12 +1,20 @@
 
 
 .section_header {
-    background-image: url(../img/header-img.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../img/header2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
+
+    .header_content {
+        padding-top: 3rem;
+    }
 }
+
 
 .contenedor {
     padding: 1rem 1rem;
@@ -30,18 +38,11 @@
         font-size: 3rem;
         color: #fff;
         margin: 3rem 0;
-
-    }
-    span {
-        text-align: center;
-        color: #fff;
-        font-size: 2rem;
-        font-weight: bold;
-        letter-spacing: 10px;
     }
     .text-parrafo {
         @include parrafo;
         font-size: 1.6rem;
+        line-height: 1.4;
     }
 
 }
