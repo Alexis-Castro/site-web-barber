@@ -14,7 +14,7 @@
 :root {
     --font-titles: 'Roboto Slab', serif;
     --font-parrafo: 'Opens Sans', sans-serif;
-    --color-body: #e2f5bf;
+    --color-body: #fdfdfd;
     --color-white: #fff;
     
     --color-lightGray: #f6f6f6;
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    background-color: var(--color-white);
+    background-color: var(--color-body);
     font-family: var(--font-parrafo);
 }
 
