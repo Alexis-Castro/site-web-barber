@@ -17,7 +17,7 @@
         word-spacing: 2px;
         letter-spacing: 1.3px;
         margin-bottom: 0;
-        color: #fff;
+        color: var(--color-white);
     }
     .after_before {
         @include after_before;
@@ -26,9 +26,8 @@
     
     .text-parrafo {
         @include parrafo;
-        color: #bcbcbc;
+        color: var(--color-secundaryGray);
         margin-bottom: 5rem;
-        // padding-bottom: 5rem;
     }
 
     .button {

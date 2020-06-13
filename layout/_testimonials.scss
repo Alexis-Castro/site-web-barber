@@ -8,13 +8,13 @@
     padding: 0 .5rem;
     text-align: center;
 
-    h2 {
+    .titulo {
         margin-bottom: 0;
     }
 
-    p {
+    .text-parrafo {
         @include parrafo;
-        color: var(--color-text);
+        color: var(--color-primaryGray);
     }
 
     .after_before {
@@ -24,7 +24,7 @@
 
 .card__testimonials {
     padding: 4rem 2.5rem;
-    background-color: #f6f6f6;
+    background-color: var(--color-lightGray);
     
     .testimonial_image {
         width: 120px;
@@ -68,7 +68,7 @@
         .icono {
             font-size: 1.5rem;
             margin-right: 4rem;
-            color: #000;
+            color: var(--color-secundary);
         }
         
     }

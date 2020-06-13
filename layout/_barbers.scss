@@ -16,12 +16,12 @@
     }
     .text-parrafo {
         @include parrafo;
-        color: var(--color-text);
+        color: var(--color-primaryGray);
     }
 }
 
 .card__barbers {
-    background-color: #fff;
+    background-color: var(--color-white);
     margin: 2.5rem 0;
     text-align: center;
 
@@ -39,7 +39,7 @@
 
     .text-parrafo {
         @include parrafo;
-        color: var(--color-text);
+        color: var(--color-primaryGray);
     }
 }
 
@@ -59,7 +59,7 @@
 
         .icono {
             font-size: 1.5rem;
-            color: #000;
+            color: var(--color-secundary);
         }
         
     }

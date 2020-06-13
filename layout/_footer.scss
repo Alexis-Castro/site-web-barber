@@ -11,25 +11,9 @@
     align-items: center;
     margin: 2rem 0 4rem;
 
-    .titulo {
-        color: #cecece;
-        font-size: 1.5rem;
-    }
-
     img {
         width: 14rem;
     }
-}
-
-
-.text_footer {
-
-    .text-parrafo {
-        @include parrafo;
-        text-align: center;
-        color: #cecece;
-    }
-
 }
 
 .nav_footer {
@@ -50,7 +34,7 @@
     }
 
     .titulo {
-        color: #fff;
+        color: var(--color-secundaryGray);
         text-decoration: none;
         font-size: 1.3rem;
     }
@@ -63,7 +47,7 @@
     
     .icono {
         margin: 1.5rem 2rem;
-        color: #fff;
+        color: var(--color-secundaryGray);
         font-size: 1.8rem;
     }
 }
@@ -74,6 +58,6 @@
         text-align: center;
         font-size: 1.3rem;
         text-transform: capitalize;
-        color: #fff;
+        color: var(--color-secundaryGray);
     }
 }

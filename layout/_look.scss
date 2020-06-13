@@ -1,7 +1,7 @@
 
 
 %card__section {
-    background-color: #f6f6f6;
+    background-color: var(--color-lightGray);
     padding: 1rem 2.2rem;
     padding-bottom: 6rem;
 }
@@ -23,7 +23,7 @@
 }
 
 .look_text {
-    h2 {
+    .titulo {
         word-spacing: 2px;
         letter-spacing: 1.3px;
         margin-bottom: 0;
@@ -35,7 +35,7 @@
     
     .text-parrafo {
         @include parrafo;
-        color: var(--color-text);
+        color: var(--color-primaryGray);
         margin-bottom: 5rem;
         // padding-bottom: 5rem;
     }

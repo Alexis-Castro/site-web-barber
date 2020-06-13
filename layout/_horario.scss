@@ -13,7 +13,7 @@
 
     h2 {
         letter-spacing: 2px;
-        color: #fff;
+        color: var(--color-white);
         margin-bottom: 0;
     }
     
@@ -41,10 +41,10 @@
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background-color: #c89765;
+    background-color: var(--color-secundary);
 
     .titulo {
-        color: #fff;
+        color: var(--color-white);
         margin: 0;
         font-size: 3.5rem;
     }
@@ -67,16 +67,16 @@
     
     .button__sedes {
         &:first-child {
-            background-color: #ca8a4a;
-            border-color: #ca8a4a;
+            background-color: var(--color-secundary);
+            border-color: var(--color-secundary);
         }
         
         // @include button;
         font-size: 1.2rem;
         background-color: transparent;
         border-radius: 5px;
-        border: 1px solid #fff;
-        color: #fff;
+        border: 1px solid var(--color-white);
+        color: var(--color-white);
         padding: .9rem 0;
     }
 }

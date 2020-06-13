@@ -15,9 +15,13 @@
     --font-titles: 'Roboto Slab', serif;
     --font-parrafo: 'Opens Sans', sans-serif;
     --color-body: #e2f5bf;
-    --color-text: #999999;
-    --color-background-button: #c89765;
-    --color-text-button: #fff;
+    --color-white: #fff;
+    
+    --color-lightGray: #f6f6f6;
+    --color-primaryGray: #999999;
+    --color-secundaryGray: #cecece;
+    --color-primary: #163a5e;
+    --color-secundary: #c89765;
 }
 
 html {
@@ -26,8 +30,7 @@ html {
 }
 
 body {
-    // background-color: var(--color-body);
-    background-color: #fff;
+    background-color: var(--color-white);
     font-family: var(--font-parrafo);
 }
 
@@ -43,8 +46,8 @@ img {
     line-height: 1.2;
     font-size: 2.2rem;
     font-family: var(--font-titles);
+    color: var(--color-primary);
     text-transform: uppercase;
-    color: #163a5e;
     font-weight: 400;
 }
 
