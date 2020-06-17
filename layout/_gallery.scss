@@ -37,5 +37,15 @@
     }
 }
 
+// ********** MEDIA QUERY ***************
+@media (min-width: 480px) {
+    .gallery_text {
+        .text-parrafo {
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+        }
+    }
+}
+
 
 

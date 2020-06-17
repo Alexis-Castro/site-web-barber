@@ -70,6 +70,15 @@
             margin-right: 4rem;
             color: var(--color-secundary);
         }
-        
+    }
+}
+
+// ********** MEDIA QUERY ***************
+@media (min-width: 480px) {
+    .testimonials__text {
+        .text-parrafo {
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+        }
     }
 }
