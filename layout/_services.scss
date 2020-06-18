@@ -24,7 +24,8 @@
 .card__services {
     background-color: var(--color-lightGray);
     margin: 2.5rem 0;
-    padding: 2rem 3rem;
+    padding: 2.2rem 2.7rem;
+    height: auto;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -69,6 +70,12 @@
 // ******** MEDIA QUERY ***************
 
 @media (min-width: 480px) {
+    .section_services {
+        .wrapper {
+            max-width: 480px;
+        }
+    }
+
     .services_text {
         .text-parrafo {
             font-size: 1.6rem;
@@ -78,12 +85,32 @@
 
     .card__services {
         align-items: center;
-        grid-template-areas: "text imagen" "text imagen";
+        grid-template-areas: "text imagen" 
+                            "text imagen";
 
         &:nth-child(2),
         &:nth-child(4) {
             grid-template-areas: "imagen text" 
                                 "imagen text";
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .section_services {
+        .wrapper {
+            max-width: 750px;
+        }
+    }
+
+    .services_content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .card__services {
+            margin: 1rem 1rem;
         }
     }
 }

@@ -10,11 +10,17 @@
 .location__text {
     text-align: center;
 
-    h3 {
+    .titulo {
         margin-bottom: 0;
     }
     .after_before {
         @include after_before;
     }
 
+}
+
+@media (min-width: 480px) {
+    .map__location {
+        height: 27rem;
+    }
 }

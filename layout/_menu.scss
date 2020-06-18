@@ -27,7 +27,6 @@
         margin: 0 .5rem;
         font-size: 1.3rem;
     }
-
 }
 
 .hambur {
@@ -54,44 +53,6 @@
         &:last-child {
             margin-bottom: 0;
         }
-    }
-}
-
-// *************** Dark Mode *****************
-
-.switch {
-    margin-left: auto;
-
-    background-color: #dedede;
-    border-radius: 1000px;
-    border: none;
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    outline: none;
-
-    &::after {
-        content: '';
-        display: block;
-        width: 2.5rem;
-        height: 2.5rem;
-        position: absolute;
-        background-color: #f1f1f1;
-        top: 0;
-        left: 0;
-        right: unset;
-        border-radius: 10rem;
-        transition: .3s ease all;
-        box-shadow: 0 0 2px 2px rgba(0,0,0, .2);
-    }
-
-    span {
-        width: 2.5rem;
-        height: 2.5rem;
-        line-height: 2.5rem;
-        display: block;
-        background: none;
-        color: #000;
     }
 }
 

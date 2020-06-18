@@ -52,6 +52,7 @@
         @include parrafo;
         font-style: italic;
         color: #000;
+        letter-spacing: 0.05rem;
 
         .icono {
             font-size: 1.5rem;
@@ -75,10 +76,31 @@
 
 // ********** MEDIA QUERY ***************
 @media (min-width: 480px) {
+    .section_testimonials {
+        .wrapper {
+            max-width: 480px;
+        }
+    }
+
     .testimonials__text {
         .text-parrafo {
             font-size: 1.6rem;
             line-height: 2.7rem;
         }
+    }
+}
+
+@media (min-width: 768px) {
+    .section_testimonials {
+        .wrapper {
+            max-width: 750px;
+        }
+    }
+
+    .card__testimonials {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        align-items: center;
+        justify-items: center;
     }
 }
