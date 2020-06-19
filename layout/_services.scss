@@ -1,6 +1,6 @@
 
 .section_services {
-    padding: 3rem 0;
+    margin: 5rem 0;
 }
 
 .services_text {
@@ -110,7 +110,31 @@
         grid-template-rows: repeat(2, 1fr);
 
         .card__services {
-            margin: 1rem 1rem;
+            margin: 1.5rem;
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+    .section_services {
+        .wrapper {
+            max-width: 970px;
+        }
+    }
+    .services_text {
+        .titulo {
+            font-size: 2.8rem;
+            line-height: 1.33333;
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .section_services {
+        .wrapper {
+            max-width: 1200px;
         }
     }
 }

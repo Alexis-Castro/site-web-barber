@@ -96,11 +96,16 @@
             max-width: 750px;
         }
     }
+    .testimonials__text {
+        .titulo {
+            font-size: 2.8rem;
+            line-height: 1.33333;
+        }
+    }
 
     .card__testimonials {
         display: grid;
         grid-template-columns: 30% 70%;
-        align-items: center;
         justify-items: center;
     }
 }

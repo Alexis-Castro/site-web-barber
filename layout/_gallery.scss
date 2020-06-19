@@ -1,5 +1,6 @@
 
 .card__gallery {
+    padding: 12rem 0;
     @extend %card__section;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.8),
@@ -11,7 +12,7 @@
 }
 
 .gallery_text {
-    padding: 4rem 0 1rem;
+    padding: 0 0 1rem;
     
     .titulo {
         word-spacing: 2px;
@@ -59,7 +60,7 @@
         }
     }
     .gallery_text {
-        width: 66.66666%;
+        max-width: 66.66666%;
         .titulo {
             font-size: 2.8rem;
             line-height: 1.33333;
@@ -67,4 +68,18 @@
     }
 }
 
+@media (min-width: 992px) {
+    .card__gallery {
+        .wrapper {
+            max-width: 992px;
+        }
+    }
+    .gallery_text {
+        max-width: 58.33333%;
+        .titulo {
+            font-size: 2.8rem;
+            line-height: 1.33333;
+        }
+    }
+}
 
