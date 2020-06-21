@@ -25,16 +25,18 @@
                 <h2 class="titulo">Navajas</h2>
             </nav>
         </div>
-        <div class="contenedor">
-            <div class="header_content">
-                <div class="image_content">
-                    <a href="">
-                        <img class="logo" src="img/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="header__text">
-                    <h1 class="titulo">La Barberia de la Ciudad</h1>
-                    <p class="text-parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam velit quod sapiente ullam voluptas culpa possimus nihil porro esse ad, totam animi debitis amet eos reprehenderit, natus veritatis ratione dignissimos.</p>
+        <div class="wrapper">
+            <div class="contenedor">
+                <div class="header_content">
+                    <div class="image_content">
+                        <a href="">
+                            <img class="logo" src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__text">
+                        <h1 class="titulo">La Barberia de la Ciudad</h1>
+                        <p class="text-parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores suscipit explicabo soluta, odio facere aut sint reiciendis? Nobis cupiditate fugit tempora sunt nisi non aliquid, vel tenetur placeat quisquam dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit Vitae sint eum beatae.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,7 +51,7 @@
                         <img src="img/adorno.svg" alt="">
                     </div>
                     <p class="text-parrafo">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sit a dicta. Quia, dolores placeat exercitationem ut modi.
+                        <strong>Navajas</strong> ofrece cortes de cabello para hombres de clase mundial, cuidado de la barba y afeitados con afeitadora. Estos son solo algunos de los servicios por los que somos conocidos.
                     </p>
                 </div>
                 <div class="services_content">
@@ -191,11 +193,12 @@
     </section>
 
     <section class="section_gallery">
-        <article>
+        <article class="gallery__container">
             <div class="card__gallery">
                 <div class="wrapper">
                     <div class="gallery_text">
-                        <h2 class="titulo">Navajas cortes Galería</h2>
+                        <h2 class="titulo">Navajas
+                            cortes <br> Galería</h2>
                         <div class="after_before">
                             <img src="img/adorno.svg" alt="">
                         </div>
@@ -217,7 +220,7 @@
                     </div>
                     <p class="text-parrafo">Estas revisiones que nuestros clientes han enviado recientemente son la mejor manera de aprender más sobre el nivel de servicio y atención al cliente de nuestra barbería.</p>
                 </div>
-                <div class="card__testimonials">
+                <blockquote class="card__testimonials">
                     <div class="testimonial_image">
                         <img src="img/look.jpg" alt="">
                     </div>
@@ -230,62 +233,66 @@
                             <a href="" class="icono"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                </div>
+                </blockquote>
             </div>
         </div>
     </section>
 
     <section class="section_days">
-        <div class="days__text">
-            <h2 class="titulo">Horario Semanal</h2>
-            <div class="after_before">
-                <img src="img/adorno.svg" alt="">
+        <article class="wrapper">
+            <div class="days__text">
+                <h2 class="titulo">Horario Semanal</h2>
+                <div class="after_before">
+                    <img src="img/adorno.svg" alt="">
+                </div>
             </div>
-        </div>
-        <div class="horarios_sedes">
-            <button class="button__sedes">
-                7 de enero
-            </button>
-            <button class="button__sedes">
-                Bolognesi
-            </button>
-        </div>
-        <div class="contenedor week_days">
-            <div class="card__days">
-                <h2 class="titulo">Lun</h2>
-                <p class="text-parrafo">10:30 A.M</p>
-                <p class="text-parrafo">9:00 P.M</p>
+            <div class="horarios__container">
+                <div class="horarios_sedes">
+                    <button class="button__sedes">
+                        7 de enero
+                    </button>
+                    <button class="button__sedes">
+                        Bolognesi
+                    </button>
+                </div>
+                <div class="contenedor week_days">
+                    <div class="card__days">
+                        <h2 class="titulo">Lun</h2>
+                        <p class="text-parrafo">10:30 A.M</p>
+                        <p class="text-parrafo">9:00 P.M</p>
+                    </div>
+                    <div class="card__days">
+                        <h2 class="titulo">Mar</h2>
+                        <p class="text-parrafo">10:30 A.M</p>
+                        <p class="text-parrafo">9:00 P.M</p>
+                    </div>
+                    <div class="card__days">
+                        <h2 class="titulo">Mie</h2>
+                        <p class="text-parrafo">10:30 A.M</p>
+                        <p class="text-parrafo">9:00 P.M</p>
+                    </div>
+                    <div class="card__days">
+                        <h2 class="titulo">Jue</h2>
+                        <p class="text-parrafo">10:30 A.M</p>
+                        <p class="text-parrafo">9:00 P.M</p>
+                    </div>
+                    <div class="card__days">
+                        <h2 class="titulo">Vie</h2>
+                        <p class="text-parrafo">10:30 A.M</p>
+                        <p class="text-parrafo">9:00 P.M</p>
+                    </div>
+                    <div class="card__days">
+                        <h2 class="titulo">Sab</h2>
+                        <p class="text-parrafo">10:30 A.M</p>
+                        <p class="text-parrafo">9:00 P.M</p>
+                    </div>
+                    <div class="card__days">
+                        <h2 class="titulo">Dom</h2>
+                        <p class="text-parrafo">CERRADO</p>
+                    </div>
+                </div>
             </div>
-            <div class="card__days">
-                <h2 class="titulo">Mar</h2>
-                <p class="text-parrafo">10:30 A.M</p>
-                <p class="text-parrafo">9:00 P.M</p>
-            </div>
-            <div class="card__days">
-                <h2 class="titulo">Mie</h2>
-                <p class="text-parrafo">10:30 A.M</p>
-                <p class="text-parrafo">9:00 P.M</p>
-            </div>
-            <div class="card__days">
-                <h2 class="titulo">Jue</h2>
-                <p class="text-parrafo">10:30 A.M</p>
-                <p class="text-parrafo">9:00 P.M</p>
-            </div>
-            <div class="card__days">
-                <h2 class="titulo">Vie</h2>
-                <p class="text-parrafo">10:30 A.M</p>
-                <p class="text-parrafo">9:00 P.M</p>
-            </div>
-            <div class="card__days">
-                <h2 class="titulo">Sab</h2>
-                <p class="text-parrafo">10:30 A.M</p>
-                <p class="text-parrafo">9:00 P.M</p>
-            </div>
-            <div class="card__days">
-                <h2 class="titulo">Dom</h2>
-                <p class="text-parrafo">CERRADO</p>
-            </div>
-        </div>
+        </article>
     </section>
 
     <section class="section_location">

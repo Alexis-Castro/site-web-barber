@@ -10,8 +10,7 @@
 }
 
 .days__text {
-
-    h2 {
+    .titulo {
         letter-spacing: 2px;
         color: var(--color-white);
         margin-bottom: 0;
@@ -26,6 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .card__days {
@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
 
-    margin: 10px;
+    margin: 1rem;
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -58,7 +58,7 @@
 }
 
 .horarios_sedes {
-    margin: 4rem 0 1rem;
+    padding: 4rem 0 1rem;
     display: grid;
     grid-template-columns: repeat(2, 10rem);
     grid-column-gap: 20px;
@@ -74,9 +74,75 @@
         // @include button;
         font-size: 1.2rem;
         background-color: transparent;
-        border-radius: 5px;
+        border-radius: 10px;
         border: 1px solid var(--color-white);
         color: var(--color-white);
         padding: .9rem 0;
+    }
+}
+
+@media (min-width: 540px) {
+    .section_days {
+        .wrapper {
+            max-width: 700px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .section_days {
+        .wrapper {
+            max-width: 750px;
+        }
+    }
+    .days__text {
+        .titulo {
+            font-size: 2.8rem;
+            line-height: 1.33333;
+            font-weight: 700;
+        }
+    }
+    .horarios_sedes {
+        grid-template-columns: repeat(2, 13rem);
+        .button__sedes {
+            font-size: 1.8rem;
+            padding: 1rem;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .section_days {
+        .wrapper {
+            max-width: 992px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .section_days {
+        .wrapper {
+            max-width: 100%;
+        }
+    }
+    .horarios__container {
+        padding: 4rem 0;
+    }
+    .week_days {
+        padding: 2rem 0;
+    }
+    .days__text {
+        .titulo {
+            font-size: 3.6rem;
+            line-height: 1.33333;
+            font-weight: 700;
+        }
+    }
+    .horarios_sedes {
+        grid-template-columns: repeat(2, 16rem);
+        .button__sedes {
+            font-size: 2.1rem;
+            padding: 1.5rem;
+        }
     }
 }

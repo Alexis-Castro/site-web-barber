@@ -61,3 +61,27 @@
         color: var(--color-secundaryGray);
     }
 }
+
+
+@media (min-width: 768px) {
+    .logo_footer {
+        img {
+            width: 17rem;
+        }
+    }
+    .nav_footer {
+        .titulo {
+            font-size: 1.5rem;
+        }
+    }
+    .footer_redes {
+        .icono {
+            font-size: 2.5rem;
+        }
+    }
+    .copyright {
+        .titulo {
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 
 .section_location {
-    padding: 3.5rem 0 4rem 0;
+    padding: 3.5rem 0 6rem 0;
 }
 
 .map__location {
@@ -21,6 +21,38 @@
 
 @media (min-width: 480px) {
     .map__location {
-        height: 27rem;
+        height: 35rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .section_location {
+        padding: 6rem 0;
+    }
+    .location__text {
+        .titulo {
+            font-size: 2.8rem;
+            line-height: 1.33333;
+            font-weight: 700;
+        }
+    }
+    .map__location {
+        height: 40rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section_location {
+        padding: 11rem 0;
+    }
+    .location__text {
+        .titulo {
+            font-size: 3.6rem;
+            line-height: 1.33333;
+            font-weight: 700;
+        }
+    }
+    .map__location {
+        height: 45rem;
     }
 }

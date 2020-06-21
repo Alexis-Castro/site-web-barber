@@ -89,12 +89,14 @@
 
 @media (min-width: 768px) {
     .section_our_barbers {
+        padding: 4rem 10rem;
         .wrapper {
             max-width: 750px;
         }
     }
     .barber__text {
         .titulo {
+            font-weight: 700;
             font-size: 2.8rem;
             line-height: 1.33333;
         }
@@ -105,6 +107,7 @@
 
 @media (min-width: 992px) {
     .section_our_barbers {
+        padding: 7.5rem 0;
         .wrapper {
             max-width: 970px;
         }
@@ -120,8 +123,16 @@
 
 @media (min-width: 1200px) {
     .section_our_barbers {
+        padding: 11rem;
         .wrapper {
             max-width: 1200px;
+        }
+    }
+    .barber__text {
+        .titulo {
+            font-size: 3.6rem;
+            font-weight: 700;
+            line-height: 1.33333;
         }
     }
 }

@@ -1,6 +1,6 @@
 
 .section_services {
-    margin: 5rem 0;
+    padding: 3rem 0;
 }
 
 .services_text {
@@ -99,8 +99,18 @@
 
 @media (min-width: 768px) {
     .section_services {
+        padding: 5rem 0;
+    }
+    .section_services {
         .wrapper {
             max-width: 750px;
+        }
+    }
+    .services_text {
+        .titulo {
+            font-size: 2.8rem;
+            line-height: 1.33333;
+            font-weight: 700;
         }
     }
 
@@ -118,6 +128,7 @@
 
 @media (min-width: 992px) {
     .section_services {
+        padding: 7.5rem 0;
         .wrapper {
             max-width: 970px;
         }
@@ -133,8 +144,16 @@
 
 @media (min-width: 1200px) {
     .section_services {
+        padding: 11rem 0;
         .wrapper {
             max-width: 1200px;
+        }
+    }
+    .services_text {
+        .titulo {
+            font-size: 3.6rem;
+            line-height: 1.33333;
+            font-weight: 700;
         }
     }
 }

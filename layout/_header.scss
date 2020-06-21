@@ -1,13 +1,13 @@
 
 .section_header {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.6)
       ), url(../img/header2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60rem;
+    height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -15,7 +15,6 @@
 }
 
 .header_content {
-    padding: 1rem 2rem;
     .logo {
         width: 140px;
     }
@@ -32,9 +31,11 @@
     text-align: center;
     .titulo {
         font-family: var(--font-titles);
-        font-size: 2.7rem;
         color: var(--color-white);
+        font-size: 2.7rem;
+        letter-spacing: .04rem;
         margin: 3rem 0;
+        text-transform: capitalize;
     }
     .text-parrafo {
         @include parrafo;
@@ -46,9 +47,64 @@
 
 // ********** MEDIA QUERY ***************
 @media (min-width: 480px) {
+    .section_header {
+        .wrapper {
+            max-width: 500px;
+        }
+        .logo {
+            width: 160px;
+        }
+    }
     .header__text {
+        .titulo {
+            font-size: 3.4rem;
+        }
         .text-parrafo {
-            font-size: 1.7rem;
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .section_header {
+        .wrapper {
+            max-width: 750px;
+        }
+        .logo {
+            width: 180px;
+        }
+    }
+    .header__text {
+        .titulo {
+            font-size: 5.5rem;
+        }
+        .text-parrafo {
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .section_header {
+        .wrapper {
+            max-width: 1200px;
+            .contenedor {
+                max-width: 75%;   
+            }
+        }
+        .logo {
+            width: 200px;
+        }
+    }
+    .header__text {
+        .titulo {
+            font-size: 7.2rem;
+        }
+        .text-parrafo {
+            font-size: 1.8rem;
             line-height: 3rem;
         }
     }
