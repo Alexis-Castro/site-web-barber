@@ -7,7 +7,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 52rem;
 
     display: flex;
     justify-content: center;
@@ -89,6 +89,7 @@
 
 @media (min-width: 1200px) {
     .section_header {
+        height: 100vh;
         .wrapper {
             max-width: 1200px;
             .contenedor {

@@ -22,11 +22,12 @@
 
 .barbers_container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     column-gap: 2.5rem;
 }
 
 .card__barbers {
+    // max-width: 100%;
     background-color: var(--color-white);
     margin: 2rem 0;
     text-align: center;
@@ -71,6 +72,12 @@
 }
 
 // ********** MEDIA QUERY ***************
+@media (min-width: 320px) {
+    .barbers_container {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+}
+
 @media (min-width: 480px) {
     .section_our_barbers {
         .wrapper {

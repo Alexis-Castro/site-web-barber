@@ -81,6 +81,26 @@
     }
 }
 
+
+
+
+// ********** MEDIA QUERY ***************
+
+@media (min-width: 320px) {
+    .card__days  {
+        width: 115px;
+        height: 115px;
+
+        .titulo {
+            font-size: 2.7rem;
+        }
+    
+        .text-parrafo {
+            font-size: 1.1rem;
+        }
+    }
+}
+
 @media (min-width: 540px) {
     .section_days {
         .wrapper {
