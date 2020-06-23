@@ -38,20 +38,20 @@
     align-items: center;
 
     margin: 1rem;
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     background-color: var(--color-secundary);
 
     .titulo {
         color: var(--color-white);
         margin: 0;
-        font-size: 3.5rem;
+        font-size: 3.2rem;
     }
 
     .text-parrafo {
         @include parrafo;
-        font-size: 1.25rem;
+        font-size: 1.29rem;
         line-height: 1.4;
         margin: 0;
     }
@@ -86,7 +86,7 @@
 
 // ********** MEDIA QUERY ***************
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .card__days  {
         width: 115px;
         height: 115px;
@@ -140,6 +140,18 @@
 }
 
 @media (min-width: 1200px) {
+    .card__days  {
+        width: 150px;
+        height: 150px;
+
+        .titulo {
+            font-size: 3.7rem;
+        }
+    
+        .text-parrafo {
+            font-size: 1.4rem;
+        }
+    }
     .section_days {
         .wrapper {
             max-width: 100%;
