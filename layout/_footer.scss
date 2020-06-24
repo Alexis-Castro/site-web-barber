@@ -29,7 +29,7 @@
         justify-content: space-evenly;
 
         .item_menu {
-            margin: 1.5rem 0;
+            margin: 1.5rem .8rem;
         }
     }
 
@@ -37,6 +37,10 @@
         color: var(--color-secundaryGray);
         text-decoration: none;
         font-size: 1.3rem;
+        transition: .3s all ease-out;
+        &:hover {
+            color: var(--color-secundary);
+        }
     }
 }
 
@@ -49,6 +53,10 @@
         margin: 1.5rem 2rem;
         color: var(--color-secundaryGray);
         font-size: 1.8rem;
+        transition: .3s all ease-out;
+        &:hover {
+            color: var(--color-secundary);
+        }
     }
 }
 

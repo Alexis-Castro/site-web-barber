@@ -67,6 +67,11 @@
         .icono {
             font-size: 1.5rem;
             color: var(--color-secundary);
+            transition: .3s ease-out;
+
+            &:hover {
+                color: var(--color-primary);
+            }
         }
     }
 }

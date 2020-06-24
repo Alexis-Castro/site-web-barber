@@ -35,6 +35,12 @@
         @include button;
         text-decoration: none;
         font-family: var(--font-titles);
+
+        &:hover {
+            background-color: var(--color-white);
+            border-color: var(--color-white);
+            color: #000;
+        }
     }
 }
 
@@ -87,7 +93,7 @@
 
 @media (min-width: 1200px) {
     .card__gallery {
-        padding: 15rem 0 18rem;
+        padding: 13rem 0 15rem;
         .wrapper {
             max-width: 1200px;
         }

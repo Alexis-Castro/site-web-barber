@@ -16,8 +16,11 @@
     }
     .text-parrafo {
         @include parrafo;
+        margin-left: auto;
+        margin-right: auto;
         color: var(--color-primaryGray);
         line-height: 1.5;
+        max-width: 780px;
     }
 }
 
@@ -50,7 +53,12 @@
         a {
             text-decoration: none;
             color: inherit;
+            transition: .3s ease-out;
+            &:hover {
+                color: var(--color-secundary);
+            }
         }
+
     }
     
     .text-parrafo {
@@ -147,6 +155,9 @@
         padding: 11rem 0;
         .wrapper {
             max-width: 1200px;
+        }
+        .card_img {
+            margin: 0 4rem;
         }
     }
     .services_text {
