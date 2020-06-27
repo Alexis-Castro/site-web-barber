@@ -4,6 +4,7 @@
     background-color: #fdfdfd;
     position: sticky;
     top: 0;
+    align-self: flex-start;
 
     .menu__nav {
         display: flex;
@@ -26,7 +27,6 @@
             font-size: 3rem;
             margin-left: auto;
             .icon {
-                text-decoration: none;
                 color: var(--color-primary);
             }
         }
@@ -39,7 +39,6 @@
     margin-right: 2rem;
 
     .icono {
-        text-decoration: none;
         color: #747474;
 
         img {
@@ -60,7 +59,3 @@
         }
     }
 }
-
-
-
-
