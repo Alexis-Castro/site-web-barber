@@ -167,4 +167,10 @@
             font-weight: 700;
         }
     }
+    .card__services {
+        &:nth-child(1),
+        &:nth-child(3) {
+            padding: 2.5rem 5rem;
+        }
+    }
 }

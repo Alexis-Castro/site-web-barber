@@ -78,3 +78,15 @@
         padding: 6rem 9rem 8rem 6rem;
     }
 }
+
+@media (min-width: 1200px) {
+    .card__look {
+        padding: 12rem 10rem 13rem 12rem;
+    }
+    .look_text {
+        .titulo {
+            font-size: 3.6rem;
+            font-weight: 700;
+        }
+    }
+}
